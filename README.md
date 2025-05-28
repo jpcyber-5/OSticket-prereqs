@@ -94,6 +94,10 @@ From the `osTicket-Installation-Files` folder:
 
 ![Screenshot 2025-05-27 200408](https://github.com/user-attachments/assets/1daddcd5-de19-415c-b3db-57ca558db9ee)
 
+![Screenshot 2025-05-27 201546](https://github.com/user-attachments/assets/c319d3e6-339d-48e7-9fd3-ea03b3195a17)
+![Screenshot 2025-05-27 201601](https://github.com/user-attachments/assets/bdb8fe08-c359-463d-8699-6325d0f6091d)
+![Screenshot 2025-05-27 201624](https://github.com/user-attachments/assets/751d2744-d01a-469a-b17d-b7b0b7ff0f53)
+![Screenshot 2025-05-27 201633](https://github.com/user-attachments/assets/b13518b4-ba52-47ed-8bb5-87fe1f6f4479)
 
 ---
 
