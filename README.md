@@ -60,6 +60,9 @@ This tutorial outlines the prerequisites and step-by-step installation of the op
 - Folder should be named: `osTicket-Installation-Files`.
 
 
+![Screenshot 2025-05-27 195500](https://github.com/user-attachments/assets/e0ad6507-5472-41d2-a019-ae8b5c141aa4)
+
+
 ---
 ### 4. Enable IIS & CGI
 - Enable IIS in Windows Features:
