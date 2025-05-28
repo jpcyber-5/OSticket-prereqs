@@ -120,6 +120,11 @@ From the `osTicket-Installation-Files` folder:
 - Rename `upload` to `osTicket`
 - Restart IIS
 
+  
+![Screenshot 2025-05-27 202551](https://github.com/user-attachments/assets/2e18aa38-789d-4891-83db-596fcb2058db)
+![Screenshot 2025-05-27 202601](https://github.com/user-attachments/assets/be43142d-9ada-43ae-b664-f0181d7a3cdb)
+![Screenshot 2025-05-27 202731](https://github.com/user-attachments/assets/bb29edbf-7a3d-42e8-92a9-264fe4f0b161)
+
 
 ---
 ### 9. Browse to osTicket
@@ -127,6 +132,9 @@ From the `osTicket-Installation-Files` folder:
 - Click “Browse *:80”
 - Note any missing PHP extensions
 
+![Screenshot 2025-05-27 202827](https://github.com/user-attachments/assets/909f7d01-842b-49c4-af7d-567c987b7b3b)
+![Screenshot 2025-05-27 202834](https://github.com/user-attachments/assets/2fc11d8d-99b5-4925-9994-6a9cdea23dc0)
+![Screenshot 2025-05-27 202853](https://github.com/user-attachments/assets/653b1590-2014-4f5f-ad5c-2a24d64fbf3d)
 
 ---
 ### 10. Enable PHP Extensions
@@ -136,7 +144,9 @@ In PHP Manager (IIS):
   - `php_intl.dll`
   - `php_opcache.dll`
 - Refresh browser
+![Screenshot 2025-05-27 203321](https://github.com/user-attachments/assets/7545c611-d339-4fbd-808a-3d3405ca0a0f)
 
+![Screenshot 2025-05-27 203336](https://github.com/user-attachments/assets/d5b9f4f0-394a-4256-a708-9337ee69903a)
 
 ---
 ### 11. Configure osTicket
