@@ -50,11 +50,11 @@ This tutorial outlines the prerequisites and step-by-step installation of the op
 ### 2. Remote Desktop Login
 - Log into the VM using Remote Desktop with the above credentials.
 
----![Screenshot 2025-05-27 194750](https://github.com/user-attachments/assets/c0a993e6-fd13-4729-9d1e-d3256d5506ee)
+![Screenshot 2025-05-27 194750](https://github.com/user-attachments/assets/c0a993e6-fd13-4729-9d1e-d3256d5506ee)
 
 ![Screenshot 2025-05-27 194859](https://github.com/user-attachments/assets/6ed962ac-9644-459e-99e3-d3d26b5f23c9)
 
-
+---
 ### 3. Extract Installation Files
 - Download and extract `osTicket-Installation-Files.zip` to your Desktop.
 - Folder should be named: `osTicket-Installation-Files`.
