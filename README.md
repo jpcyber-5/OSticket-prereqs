@@ -157,6 +157,12 @@ In PHP Manager (IIS):
   - Disable inheritance
   - Remove all existing permissions
   - Add `Everyone` → Full Control
+ 
+  
+![Screenshot 2025-05-27 203652](https://github.com/user-attachments/assets/255b1541-eab0-45f8-a152-4c528e2ce94c)
+![Screenshot 2025-05-27 203723](https://github.com/user-attachments/assets/c3e74d52-4a45-4716-89b7-0f6b950b02e2)
+![Screenshot 2025-05-27 203806](https://github.com/user-attachments/assets/0ba6a5ec-5251-4467-a018-e546a43a7f7d)
+![Screenshot 2025-05-27 203815](https://github.com/user-attachments/assets/4c67aebb-5f9c-40a3-b724-f0a74d3cc206)
 
 ---
 ### 12. Setup Database
