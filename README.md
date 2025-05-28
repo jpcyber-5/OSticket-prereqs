@@ -44,6 +44,7 @@ This tutorial outlines the prerequisites and step-by-step installation of the op
 - Specs: 4 vCPUs, 8GB RAM
 - Username: `labuser`
 - Password: `osTicketPassword1!`
+![Screenshot 2025-05-27 194107](https://github.com/user-attachments/assets/19e676f5-5adf-485e-9d88-5eb8f9a7576f)
 
 ---
 ### 2. Remote Desktop Login
