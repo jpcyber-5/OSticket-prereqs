@@ -77,6 +77,13 @@ From the `osTicket-Installation-Files` folder:
 - Install **URL Rewrite Module** (`rewrite_amd64_en-US.msi`)
 - Install **VC_redist.x86.exe`
 
+  
+![Screenshot 2025-05-27 200038](https://github.com/user-attachments/assets/4f6e7ab6-9ada-44d3-b562-de7dd3bfd322)
+![Screenshot 2025-05-27 200120](https://github.com/user-attachments/assets/46315d9c-1ffa-45dc-8ea8-52d60684a2b9)
+![Screenshot 2025-05-27 200449](https://github.com/user-attachments/assets/254eafa2-3cab-4a5e-9c1a-13b1dc1885d1)
+
+
+
 ---
 
 ### 6. Setup PHP
@@ -84,6 +91,8 @@ From the `osTicket-Installation-Files` folder:
 - Extract `php-7.3.8-nts-Win32-VC15-x86.zip` into `C:\PHP`
 - Register `php-cgi.exe` via **PHP Manager** in IIS
 - Restart IIS (Stop/Start server)
+
+![Screenshot 2025-05-27 200408](https://github.com/user-attachments/assets/1daddcd5-de19-415c-b3db-57ca558db9ee)
 
 
 ---
@@ -93,6 +102,10 @@ From the `osTicket-Installation-Files` folder:
 - Run Configuration Wizard → Standard Configuration
   - Username: `root`
   - Password: `root`
+ 
+
+![Screenshot 2025-05-27 200743](https://github.com/user-attachments/assets/0176ea6f-3699-4be0-a8dc-41244993f010)
+![Screenshot 2025-05-27 200819](https://github.com/user-attachments/assets/1168f71b-4bdf-49cb-8d27-9b47cb10785a)
 
 
 ---
