@@ -67,7 +67,8 @@ This tutorial outlines the prerequisites and step-by-step installation of the op
 ### 4. Enable IIS & CGI
 - Enable IIS in Windows Features:
   - World Wide Web Services → Application Development Features → ✔️ CGI
- 
+ ![Screenshot 2025-05-27 195757](https://github.com/user-attachments/assets/9571b357-8a3f-48cc-8c6f-e52340cc9b8f)
+
 ---
 
 ### 5. Install Required Tools
