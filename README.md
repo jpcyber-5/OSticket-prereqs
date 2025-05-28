@@ -6,15 +6,17 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Remote Desktop Protocol (RDP)
 - Internet Information Services (IIS)
+- MySQL 5.5.62
+- PHP 7.3.8
+- HeidiSQL
+- Windows 10 Pro (21H2)
+
+
 
 <h2>Operating Systems Used </h2>
 
@@ -22,11 +24,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Azure Virtual Machine (Windows 10, 4 vCPUs)
+- Remote Desktop Access
+- IIS with CGI and Application Development Features
+- PHP Manager, URL Rewrite Module, PHP 7.3.8
+- Visual C++ Redistributable
+- MySQL 5.5.62 and HeidiSQL
+- osTicket v1.15.8 Installation Files
 
 <h2>Installation Steps</h2>
 
