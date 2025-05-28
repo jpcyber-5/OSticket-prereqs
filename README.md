@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and step-by-step installation of the op
 ---
 
 ## ✅ List of Prerequisites
-1. Azure Virtual Machine (Windows 10, 4 vCPUs)
+1. Azure Virtual Machine (Windows 10, 2 vCPUs)
 2. Remote Desktop Access
 3. IIS with CGI and Application Development Features
 4. PHP Manager, URL Rewrite Module, PHP 7.3.8
@@ -41,7 +41,7 @@ This tutorial outlines the prerequisites and step-by-step installation of the op
 ### 1. Create Virtual Machine
 - Name: `osticket-vm`
 - OS: Windows 10
-- Specs: 4 vCPUs, 8GB RAM
+- Specs: 2 vCPUs, 16GB RAM
 - Username: `labuser`
 - Password: `osTicketPassword1!`
 ![Screenshot 2025-05-27 194107](https://github.com/user-attachments/assets/19e676f5-5adf-485e-9d88-5eb8f9a7576f)
