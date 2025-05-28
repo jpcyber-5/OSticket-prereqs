@@ -173,6 +173,10 @@ In PHP Manager (IIS):
   - Password: `root`
 - Create new database: `osTicket`
 
+![Screenshot 2025-05-27 204736](https://github.com/user-attachments/assets/fd216dd4-4e19-4ba7-a0c7-ca95a4cd097d)
+![Screenshot 2025-05-27 204801](https://github.com/user-attachments/assets/3777d9e5-45f3-4eea-9332-d2f7358393f3)
+![Screenshot 2025-05-27 204820](https://github.com/user-attachments/assets/a8e8e11c-68a7-476f-8af9-8fa51efbba7c)
+
 
 ---
 ### 13. Complete Installation via Browser
@@ -186,13 +190,14 @@ In PHP Manager (IIS):
   - Admin Login: `http://localhost/osTicket/scp/login.php`
   - User Portal: `http://localhost/osTicket/`
 
+![Screenshot 2025-05-27 204923](https://github.com/user-attachments/assets/74704466-ca2b-41f0-bd30-492b9bebbdae)
+![Screenshot 2025-05-27 204937](https://github.com/user-attachments/assets/f0a9023c-b2eb-4478-9d59-5fb6a96627c3)
+![Screenshot 2025-05-27 205049](https://github.com/user-attachments/assets/58c1bb51-c56f-4061-b382-c9ab7261eef8)
+![Screenshot 2025-05-27 205102](https://github.com/user-attachments/assets/c8d537ce-926d-4a1e-94dd-8be68fe88147)
+![Screenshot 2025-05-27 205131](https://github.com/user-attachments/assets/97bd4116-7641-417c-a079-f0cd3f181fe5)
+
 ---
 
-## 🧹 Post-Installation Cleanup
-- Delete: `C:\inetpub\wwwroot\osTicket\setup`
-- Set Read-only permissions on: `C:\inetpub\wwwroot\osTicket\include\ost-config.php`
-
----
 
 ## ✅ Status
 - osTicket successfully installed and operational on local server.
