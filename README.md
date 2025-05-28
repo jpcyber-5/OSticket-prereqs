@@ -6,11 +6,6 @@
 
 This tutorial outlines the prerequisites and step-by-step installation of the open-source help desk ticketing system **osTicket**, configured on a Windows 10 Virtual Machine hosted in Microsoft Azure.
 
----
-
-## 📺 Video Demonstration  
-**YouTube:** *How to Install osTicket with Prerequisites*  
-> *(Insert your video link here)*
 
 ---
 
@@ -42,7 +37,7 @@ This tutorial outlines the prerequisites and step-by-step installation of the op
 ---
 
 ## ⚙️ Installation Steps
-
+---
 ### 1. Create Virtual Machine
 - Name: `osticket-vm`
 - OS: Windows 10
@@ -50,16 +45,23 @@ This tutorial outlines the prerequisites and step-by-step installation of the op
 - Username: `labuser`
 - Password: `osTicketPassword1!`
 
+---
 ### 2. Remote Desktop Login
 - Log into the VM using Remote Desktop with the above credentials.
 
+
+---
 ### 3. Extract Installation Files
 - Download and extract `osTicket-Installation-Files.zip` to your Desktop.
 - Folder should be named: `osTicket-Installation-Files`.
 
+
+---
 ### 4. Enable IIS & CGI
 - Enable IIS in Windows Features:
   - World Wide Web Services → Application Development Features → ✔️ CGI
+ 
+---
 
 ### 5. Install Required Tools
 From the `osTicket-Installation-Files` folder:
@@ -67,11 +69,16 @@ From the `osTicket-Installation-Files` folder:
 - Install **URL Rewrite Module** (`rewrite_amd64_en-US.msi`)
 - Install **VC_redist.x86.exe`
 
+---
+
 ### 6. Setup PHP
 - Create folder: `C:\PHP`
 - Extract `php-7.3.8-nts-Win32-VC15-x86.zip` into `C:\PHP`
 - Register `php-cgi.exe` via **PHP Manager** in IIS
 - Restart IIS (Stop/Start server)
+
+
+---
 
 ### 7. Install MySQL
 - Install `mysql-5.5.62-win32.msi` (Typical Setup)
@@ -79,17 +86,24 @@ From the `osTicket-Installation-Files` folder:
   - Username: `root`
   - Password: `root`
 
+
+---
+
 ### 8. Install osTicket
 - Extract `osTicket-v1.15.8.zip`
 - Copy `upload` folder to `C:\inetpub\wwwroot`
 - Rename `upload` to `osTicket`
 - Restart IIS
 
+
+---
 ### 9. Browse to osTicket
 - In IIS: Sites → Default Web Site → osTicket
 - Click “Browse *:80”
 - Note any missing PHP extensions
 
+
+---
 ### 10. Enable PHP Extensions
 In PHP Manager (IIS):
 - Enable:
@@ -98,6 +112,8 @@ In PHP Manager (IIS):
   - `php_opcache.dll`
 - Refresh browser
 
+
+---
 ### 11. Configure osTicket
 - Rename:
   - From: `C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php`
@@ -107,6 +123,7 @@ In PHP Manager (IIS):
   - Remove all existing permissions
   - Add `Everyone` → Full Control
 
+---
 ### 12. Setup Database
 - Install and open **HeidiSQL**
 - Connect using:
@@ -114,6 +131,8 @@ In PHP Manager (IIS):
   - Password: `root`
 - Create new database: `osTicket`
 
+
+---
 ### 13. Complete Installation via Browser
 - Provide Helpdesk name and default email
 - Database:
